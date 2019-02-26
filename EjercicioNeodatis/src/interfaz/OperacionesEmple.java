@@ -21,6 +21,13 @@ import org.neodatis.odb.core.query.IQuery;
 import org.neodatis.odb.core.query.criteria.Where;
 import org.neodatis.odb.impl.core.query.criteria.CriteriaQuery;
 
+/**
+ * 
+ * <h2>Esta clase se encarga del mantenimiento de los datos del empleados, se realizan altas, 
+ * bajas, modifcaciones y consultas</h2>
+ *
+ */
+
 @SuppressWarnings("serial")
 public class OperacionesEmple extends JDialog {
 	private final class Modificar implements ActionListener {

@@ -1,5 +1,5 @@
 package interfaz;
-
+	
 import java.awt.EventQueue;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
@@ -13,6 +13,14 @@ import javax.swing.border.EmptyBorder;
 import java.awt.Color;
 import javax.swing.border.LineBorder;
 import javax.swing.SwingConstants;
+/**
+ * 
+ * @author Ander Rodriguez
+ * @version Version 1, 2019
+ * 
+ *
+ */
+
 
 @SuppressWarnings("serial")
 public class Principal extends JFrame {
@@ -21,6 +29,11 @@ public class Principal extends JFrame {
 	/**
 	 * Launch the application.
 	 */
+	/**
+	 * 
+	 * @param args
+	 */
+	
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
